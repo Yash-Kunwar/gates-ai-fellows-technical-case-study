@@ -1,6 +1,5 @@
 # Gates Foundation AI Fellows Program — Technical Case Study
 **Candidate:** Yash Kunwar  
-**Date:** May 2026  
 **Assignment:** Install, assess, and build on the CeRAI AI Evaluation Tool
 
 ---
