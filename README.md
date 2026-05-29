@@ -69,8 +69,8 @@ docker compose build
 docker compose up -d nginx
 ```
 
-# Default credentials: admin / admin123
-# Navigate to http://localhost:80
+### Default credentials: admin / admin123
+### Navigate to http://localhost:80
 
 
 ### 2. Custom Evaluator
