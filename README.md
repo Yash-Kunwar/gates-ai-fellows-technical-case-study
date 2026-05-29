@@ -57,7 +57,7 @@ GEMINI_API_KEY="your-key"
 LLM_AS_JUDGE_MODEL="gemini-2.5-flash"
 ```
 
-**Windows/WSL2 only:** Add missing volume mount to `docker-compose.yml` under `app-backend` volumes (this fix is required on Windows — not needed on macOS):
+**Windows/WSL2 only:** Add missing volume mount to `docker-compose.yml` under `app-backend` volumes:
 ```yaml
 - ./src/lib/strategy/.env:/app/src/lib/strategy/.env
 ```
