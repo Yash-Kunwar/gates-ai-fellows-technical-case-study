@@ -4,9 +4,9 @@
 
 ---
 
-## Path Chosen: Option A — Evaluate & Report
+### Path Chosen: Option B - Critique & Rebuild
 
-I chose Option A after successfully installing and running the CeRAI tool. However, the tool's scoring pipeline produced no numeric scores across both test runs, so a custom LLM-as-judge evaluator was built to generate meaningful evaluation output. The full reasoning is documented in the live report.
+I initially set out to evaluate the endpoint (Option A). However, after successfully installing the CeRAI tool, I determined it was fundamentally limited: the scoring pipeline was non-functional (producing no numeric scores), and the tool's logic incorrectly conflates "no response" with failure in safety contexts. Following Option B, I systematically documented these infrastructure bugs and implemented a custom LLM-as-judge evaluator as a minimal viable alternative to successfully generate the maternal health evaluation output. The full critique and alternative are documented in the live report.
 
 ---
 
