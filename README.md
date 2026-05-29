@@ -88,8 +88,7 @@ streamlit run custom_tests/app.py
 ## Key Findings
 
 - **CeRAI Bug 1:** Undocumented `src/lib/strategy/.env` dependency causes silent app-backend failure (Issue #130)
-- **CeRAI Bug 2:** PR #132 fix incomplete — Windows volume mounting not addressed
-- **CeRAI Bug 3:** `docker-compose.yml` missing volume mount for `strategy/.env` in app-backend
+- **CeRAI Bug 2:** `docker-compose.yml` missing volume mount for `strategy/.env` in app-backend
 - **CeRAI Finding:** Tool conflates "no response" with failure — incorrect in safety evaluation contexts
 - **CeRAI Finding:** Scoring pipeline non-functional — COMPLETED status does not mean scored
 - **Gemini Finding:** 503 errors during peak demand are a deployment blocker for LMIC health contexts
@@ -98,4 +97,4 @@ streamlit run custom_tests/app.py
 ---
 
 ## AI Use
-Claude Sonnet 4.6 was used for debugging assistance, error interpretation, and documentation. All domain decisions, test case design, and analytical framing were my own.
+Claude Sonnet 4.6 was used for debugging assistance and documentation. All domain decisions, test case design, and analytical framing were my own.
