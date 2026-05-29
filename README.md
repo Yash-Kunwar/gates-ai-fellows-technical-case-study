@@ -58,7 +58,7 @@ GEMINI_API_KEY="your-key"
 LLM_AS_JUDGE_MODEL="gemini-2.5-flash"
 ```
 
-Add missing volume mount to `docker-compose.yml` under `app-backend` volumes:
+**Windows/WSL2 only:** Add missing volume mount to `docker-compose.yml` under `app-backend` volumes (this fix is required on Windows — not needed on macOS):
 ```yaml
 - ./src/lib/strategy/.env:/app/src/lib/strategy/.env
 ```
@@ -68,6 +68,10 @@ Then:
 docker compose build
 docker compose up -d nginx
 ```
+
+# Default credentials: admin / admin123
+# Navigate to http://localhost:80
+
 
 ### 2. Custom Evaluator
 
