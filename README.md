@@ -96,5 +96,5 @@ streamlit run custom_tests/app.py
 
 ---
 
-## AI Use and Course Correction
+## AI Use
 **Claude Sonnet 4.6** was used for debugging assistance and documentation. All domain decisions, test case design, and analytical framing were my own. 
